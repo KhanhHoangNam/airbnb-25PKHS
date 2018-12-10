@@ -6,9 +6,10 @@
 </head>
 <body>
 <h1>Login</h1>
-<!--<form action="/check-login" method="post" th:object="${user}">
-    <input type="text" th:field="*{username}">
+<form action="/login" method="post" th:object="${user}">
+    <input type="text" th:field="*{username}"> |
     <input type="password" th:field="*{password}">
-</form>-->
+    <input type="submit" value="Login">
+</form>
 </body>
 </html>
